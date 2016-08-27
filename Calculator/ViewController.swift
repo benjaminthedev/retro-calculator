@@ -3,7 +3,7 @@
 //  Calculator
 //
 //  Created by Benjamin Dordoigne on 11/08/2016.
-//  Copyright © 2016 Benjamin Dordoigne. All rights reserved.
+//  Copyright © 2016 Benjamin the Geek!! . All rights reserved.
 //
 
 import UIKit

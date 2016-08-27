@@ -14,6 +14,7 @@
 		D01FD1A91D5CB9FE006204ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01FD1A71D5CB9FE006204ED /* LaunchScreen.storyboard */; };
 		D01FD1B41D5CB9FE006204ED /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01FD1B31D5CB9FE006204ED /* CalculatorTests.swift */; };
 		D01FD1BF1D5CB9FE006204ED /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01FD1BE1D5CB9FE006204ED /* CalculatorUITests.swift */; };
+		D090B32A1D604B8800B1194E /* Minecrafter.Alt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D090B3291D604B8800B1194E /* Minecrafter.Alt.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		D01FD1BA1D5CB9FE006204ED /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D01FD1BE1D5CB9FE006204ED /* CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorUITests.swift; sourceTree = "<group>"; };
 		D01FD1C01D5CB9FE006204ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D090B3291D604B8800B1194E /* Minecrafter.Alt.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecrafter.Alt.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		D01FD19D1D5CB9FE006204ED /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				D090B3291D604B8800B1194E /* Minecrafter.Alt.ttf */,
 				D01FD19E1D5CB9FE006204ED /* AppDelegate.swift */,
 				D01FD1A01D5CB9FE006204ED /* ViewController.swift */,
 				D01FD1A21D5CB9FE006204ED /* Main.storyboard */,
@@ -231,6 +234,7 @@
 			files = (
 				D01FD1A91D5CB9FE006204ED /* LaunchScreen.storyboard in Resources */,
 				D01FD1A61D5CB9FE006204ED /* Assets.xcassets in Resources */,
+				D090B32A1D604B8800B1194E /* Minecrafter.Alt.ttf in Resources */,
 				D01FD1A41D5CB9FE006204ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +486,7 @@
 				D01FD1C51D5CB9FE006204ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D01FD1C61D5CB9FE006204ED /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				D01FD1C81D5CB9FE006204ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D01FD1C91D5CB9FE006204ED /* Build configuration list for PBXNativeTarget "CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				D01FD1CB1D5CB9FE006204ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
