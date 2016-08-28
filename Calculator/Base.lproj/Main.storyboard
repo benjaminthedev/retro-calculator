@@ -234,10 +234,13 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="12345" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uI7-Te-t76">
-                                <rect key="frame" x="511" y="58" width="72" height="51"/>
-                                <fontDescription key="fontDescription" name="MinecrafterAlt" family="Minecrafter Alt" pointSize="26"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="12345" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uI7-Te-t76">
+                                <rect key="frame" x="220" y="72" width="200" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="G4b-Uh-jWw"/>
+                                    <constraint firstAttribute="height" constant="50" id="rHu-rn-a07"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="MinecrafterAlt" family="Minecrafter Alt" pointSize="31"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -261,6 +264,8 @@
                             <constraint firstItem="0Xo-ow-kjl" firstAttribute="top" secondItem="akN-D9-I90" secondAttribute="bottom" constant="27" id="jJb-bx-pCc"/>
                             <constraint firstAttribute="trailing" secondItem="0Xo-ow-kjl" secondAttribute="trailing" id="lr4-OR-zke"/>
                             <constraint firstItem="akN-D9-I90" firstAttribute="centerX" secondItem="DJy-fJ-Z4h" secondAttribute="centerX" id="qpI-88-yzj"/>
+                            <constraint firstItem="uI7-Te-t76" firstAttribute="top" secondItem="DJy-fJ-Z4h" secondAttribute="top" constant="44" id="w9X-bQ-V72"/>
+                            <constraint firstItem="DJy-fJ-Z4h" firstAttribute="trailing" secondItem="uI7-Te-t76" secondAttribute="trailing" constant="80" id="yPL-6E-tcn"/>
                             <constraint firstAttribute="trailing" secondItem="0Xo-ow-kjl" secondAttribute="trailing" id="zVs-lk-bgs"/>
                             <constraint firstItem="jkp-Jh-MbY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="zrj-vI-JDb"/>
                         </constraints>
