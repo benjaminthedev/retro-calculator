@@ -34,7 +34,6 @@ class ViewController: UIViewController {
     
     
     
-//    SET THE CLEAR BUTTON TO EMPTY STRING??????
     
     
 
